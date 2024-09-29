@@ -114,10 +114,13 @@ REACT_APP_BACKEND_URL=http://localhost:4001
  - Users: Submit queries, receive responses, and track their status.
  - Admins: Manage, respond to, and resolve queries from the admin panel.
 
-## 🖼️ Screenshots:
- ✨ Login Page
- 💬 Query Dashboard
- (Screenshots of the dashboard, query submission, and more!)
+# 🖼️ Live Demo
+
+Visit the live version of Karam Industry Query Management System by clicking the link below:
+
+👉 [Live Demo](https://karam-query.vercel.app)
+
+
 
 ## 🤝 Contributing
 
