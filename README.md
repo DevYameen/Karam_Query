@@ -64,76 +64,76 @@ Make sure you have the following installed:
    
 3. **Install dependencies:**
 
-# For the backend:
+### For the backend:
 cd api
 npm install
 
-# For the frontend:
+### For the frontend:
 cd client
 npm install
 
-# Start the servers:
+## Start the servers:
 
-# For the backend:
+### For the backend:
 cd api
 npm start
 
-# For the frontend:
+### For the frontend:
 cd client
 npm start
 
-# Now the app will be running on:
+## Now the app will be running on:
  - Frontend: http://localhost:3000
  - Backend: http://localhost:8080
 
 # 🌍 Environment Variables
 
-# Create .env files in both the frontend and backend directories to configure the app:
+## Create .env files in both the frontend and backend directories to configure the app:
 
-# Backend (backend/.env):
+### Backend (backend/.env):
 PORT=4001
 MONGODB_URI=mongodb://localhost:27017/karam-query-db
 JWT_SECRET=your_jwt_secret_key
 
-# Frontend (frontend/.env):
+### Frontend (frontend/.env):
 REACT_APP_BACKEND_URL=http://localhost:4001
 
-# Restart the server after setting environment variables to apply the changes.
+## Restart the server after setting environment variables to apply the changes.
 
 # 🎮 Usage
 
-# 🧑‍💻 User Login/Registration:
+## 🧑‍💻 User Login/Registration:
  Users can sign up with their email and password to create an account.
  After logging in, users can submit and track queries easily.
 
-# 🔑 Admin Features:
+## 🔑 Admin Features:
  Admins can log in to the admin dashboard to manage, assign, and respond to user queries.
  The admin has full control over query statuses and user interactions.
 
-# 📧 Query Management:
+## 📧 Query Management:
  - Users: Submit queries, receive responses, and track their status.
  - Admins: Manage, respond to, and resolve queries from the admin panel.
 
-# 🖼️ Screenshots:
+## 🖼️ Screenshots:
  ✨ Login Page
  💬 Query Dashboard
  (Screenshots of the dashboard, query submission, and more!)
 
-# 🤝 Contributing
+## 🤝 Contributing
 
  We welcome contributions from the community! Here’s how you can contribute:
 
-# Fork the repository.
+## Fork the repository.
  Create a new branch: git checkout -b feature-name.
  Make your changes and commit them: git commit -m "Add feature XYZ".
  Push to your branch: git push origin feature-name.
  Submit a pull request.
  We’ll review your changes and get them merged in!
 
-# 🛡️ License
+## 🛡️ License
  This project is licensed under the MIT License. Check the LICENSE file for more details.
 
-# 🙏 Thanks for using Karam Industry Query Management System!
+## 🙏 Thanks for using Karam Industry Query Management System!
  Enjoy the seamless experience and help us improve by contributing or reporting any issues. 💬
 
    
